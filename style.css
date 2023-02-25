@@ -1,125 +1,136 @@
-
-
-
-
-
 /*============= SECTION =============*/
 
 .narrow {
-  width: 75%;
-  margin: 1.5rem auto;
-  padding-top: 2rem;
+	width: 75%;
+	margin: 1.5rem auto;
+	padding-top: 2rem;
 }
 .narrow h1 {
-    font-size: 2.4rem;
-  }
+	font-size: 2.4rem;
+}
 .btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.2rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
-  color: white;
+	border-width: medium;
+	border-radius: 0;
+	padding: 0.6rem 1.2rem;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	margin: 1rem;
+	border-color: #1ebba3;
+	background-color: #1ebba3;
+	color: white;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
-  color: white;
+	border-color: #189582;
+	background-color: #189582;
+	color: white;
 }
 
 /* course */
-#course{
-  background-color: lightgray;
+#course {
+	background-color: lightgray;
 }
 
 /* navigation */
 
 .navbar {
-  background-color: black;
-  font-weight: bold;
-  font-size: 0.9rem;
-  letter-spacing: 0.1rem;
+	background-color: black;
+	font-weight: bold;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
 }
 
 .navbar-brand img {
-  height: 1.8rem;
+	height: 1.8rem;
 }
 
-.navbar-nav .nav-item{
-  padding-right: 0.6rem;
+.navbar-nav .nav-item {
+	padding-right: 0.6rem;
 }
 
-.navbar-nav .nav-item .nav-link:hover{
-  color: aqua;
+.navbar-nav .nav-item .nav-link:hover {
+	color: aqua;
 }
 
 /* landing */
-.home-inner{
-  background-image: url(img/computers.png);
-  background-size: contain;
+.home-inner {
+	background-image: url(img/computers.png);
+	background-size: contain;
 }
 
-.caption{
-  width: 100%;
-  position: absolute;
-  top: 40%;
-  color: white;
-  z-index: 1;
+.caption {
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	color: white;
+	z-index: 1;
 }
 
-.caption h1{
-  font-size: 1.8rem;
+.caption h1 {
+	font-size: 1.8rem;
 }
 
 /* course */
-#course{
-  background-color: lightgray;
+#course {
+	background-color: lightgray;
 }
 
 /* features */
-.jumbotron{
-  margin-bottom: 0;
-  padding: 0;
+.jumbotron {
+	margin-bottom: 0;
+	padding: 0;
 }
 
-.features-list{
-  list-style: none;
+.features-list {
+	list-style: none;
+	margin-bottom: 0;
 }
-
+.narrow {
+	margin-bottom: 0;
+	margin-top: 0;
+}
 /* clients */
-.client{
-  width: 90%;
-  border-radius: 50%;
+.client {
+	width: 90%;
+	border-radius: 50%;
 }
 
 /* Footer */
 
 footer a {
-  color: gray;
+	color: goldenrod;
 }
 
 footer a:hover {
-  color: black;
+	color: black;
+}
+
+.social:hover {
+	transform: scale(1.1);
+}
+.social {
+	transform: scale(0.9);
+	transition-duration: 0.5s;
 }
 
 footer img {
-  height: 2rem;
-  margin: 0.5rem 0;
+	height: 2rem;
+	margin: 0.5rem 0;
+}
+
+.copy {
+	background-color: goldenrod;
+	color: white;
 }
 
 /* Own media queries roles */
 
-@media screen and (max-width:1199px){
-  .client{
-    max-width: 50%;
-    min-width: 20vw; /* vw 20/100 dostępnej szerokości viewportu */
-  }
+@media screen and (max-width: 1199px) {
+	.client {
+		max-width: 50%;
+		min-width: 20vw; /* vw 20/100 dostępnej szerokości viewportu */
+	}
 }
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
